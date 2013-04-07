@@ -19,6 +19,11 @@ Then(/^I should see "(.*?)"$/) do |text|
   assert (has_text? text), msg
 end
 
+Then(/^I should not see "(.*?)"$/) do |text|
+  msg = "But I do. "
+  assert !(has_text? text), msg
+end
+
 Then(/^I should be on the project page for "(.*?)"$/) do |name|
   right_page = current_url == project_url(Project.find_by_name!(name))
   msg = "I am instead on the page: " + current_url + ". "
