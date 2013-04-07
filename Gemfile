@@ -7,7 +7,6 @@ gem 'rails', '3.1.0'
 
 gem 'sqlite3'
 
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -37,4 +36,5 @@ group :test do
   gem 'gherkin', '<= 2.11.6'
   gem 'capybara'
   gem 'database_cleaner'
+  gem 'factory_girl'
 end
