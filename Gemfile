@@ -13,6 +13,7 @@ gem 'sqlite3'
 group :assets do
   gem 'sass-rails', "  ~> 3.1.0"
   gem 'coffee-rails', "~> 3.1.0"
+  gem 'dynamic_form'
   gem 'uglifier'
 end
 
@@ -33,6 +34,7 @@ end
 
 group :test do
   gem 'cucumber-rails'
+  gem 'gherkin', '<= 2.11.6'
   gem 'capybara'
   gem 'database_cleaner'
 end
