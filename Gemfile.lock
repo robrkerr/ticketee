@@ -60,6 +60,10 @@ GEM
       nokogiri (>= 1.5.0)
       rails (~> 3.0)
     database_cleaner (0.9.1)
+    devise (1.4.9)
+      bcrypt-ruby (~> 3.0)
+      orm_adapter (~> 0.0.3)
+      warden (~> 1.0.3)
     diff-lcs (1.2.2)
     dynamic_form (1.1.4)
     erubis (2.7.0)
@@ -83,6 +87,7 @@ GEM
     mime-types (1.22)
     multi_json (1.7.2)
     nokogiri (1.5.9)
+    orm_adapter (0.0.7)
     polyglot (0.3.3)
     rack (1.3.10)
     rack-cache (1.0.3)
@@ -148,6 +153,8 @@ GEM
     uglifier (2.0.1)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
+    warden (1.0.6)
+      rack (>= 1.0)
     websocket (1.0.7)
     xpath (1.0.0)
       nokogiri (~> 1.3)
@@ -160,6 +167,7 @@ DEPENDENCIES
   coffee-rails (~> 3.1.0)
   cucumber-rails
   database_cleaner
+  devise (~> 1.4.3)
   dynamic_form
   factory_girl
   gherkin (<= 2.11.6)
