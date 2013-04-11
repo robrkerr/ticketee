@@ -36,7 +36,8 @@ group :test do
   gem 'gherkin', '<= 2.11.6'
   gem 'capybara'
   gem 'database_cleaner'
-  gem 'factory_girl'
+  gem "factory_girl_rails", "~> 4.0"
+  gem "factory_girl", "~> 4.0"
   gem 'email_spec'
 end
 
